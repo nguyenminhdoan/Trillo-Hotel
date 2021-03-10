@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="/img/logo.png" alt="trial logo" class="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="let's find amazing hotels..."
+          />
+          <button class="search__btn">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmarks"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">15</span>
+          </div>
+          <div class="user-nav__info-user">
+            <img
+              src="/img/user.jpg"
+              alt="user photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Andrew</span>
+          </div>
+        </nav>
+      </header>
+      <!-- Main content -->
+      <div class="main-content">
+        <nav class="sidebar">
+          <ul class="sidebar-nav">
+            <li class="sidebar-nav__item sidebar-nav__item--active">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>hotel</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>flight</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>car rental</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item">
+              <a href="#" class="sidebar-nav__link">
+                <svg class="sidebar-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">&copy; 2021 by trillo. All rights reserved.</div>
+        </nav>
+
+        <main class="hotel-view">
+          <!-- GALLERY -->
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-1.jpg"
+                alt="photo of hotel"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-2.jpg"
+                alt="photo of hotel"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="/img/hotel-3.jpg"
+                alt="photo of hotel"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+          <!-- END GALLERY -->
+
+          <!-- OVERVIEW -->
+          <div class="overview">
+            <h1 class="overview__heading">HOTEL LAS PALMA</h1>
+            <!-- OVERVIEW STAR -->
+            <div class="overview__star">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <!-- END OVERVIEW STAR -->
+
+            <!-- OVER VIEW LOCATION -->
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+
+            <!-- OVERVIEW RATING -->
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+            <!-- END OVERVIEW RATING  -->
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
